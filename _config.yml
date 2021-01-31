@@ -15,12 +15,12 @@ title_separator          : "-"
 subtitle                 : "공부 저장소"
 name                     : "RakunBear"
 description              : "개발 & 디자인 & 기획 공부 자료를 기록합니다!"
-url                      : "https://RakunBear.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # ""
+url                      : "https://RakunBear.github.io/index.html" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : ""
 repository               : "https://github.com/RakunBear/RakunBear.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "RakunBear 일지" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -143,6 +143,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
 keep_files:
   - .git
   - .svn
@@ -258,12 +259,12 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       share: true
       related: true
   # _pages
@@ -275,7 +276,7 @@ defaults:
       author_profile: true
   # _recipes
   - scope:
-      path: ""
+      path: "_recipes"
       type: recipes
     values:
       layout: single
@@ -283,7 +284,7 @@ defaults:
       share: true
   # _pets
   - scope:
-      path: ""
+      path: "_pets"
       type: pets
     values:
       layout: single
@@ -291,7 +292,7 @@ defaults:
       share: true
   # _portfolio
   - scope:
-      path: ""
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
