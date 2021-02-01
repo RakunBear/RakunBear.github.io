@@ -1,7 +1,8 @@
 ---
 title           : "블로그 시작"
-
 layout          : single
+categories      : 
+        - Default
 ---
 
 ### 처음으로 블로그를 시작하다.

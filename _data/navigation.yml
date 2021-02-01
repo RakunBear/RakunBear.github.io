@@ -7,9 +7,9 @@ main:
   - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
-    url: /sitemap/
-  - title: "Categories"
-    url: /categories/
+    url: /test/
+  - title: "Taxonomy"
+    url: /taxonomy/
   - title: "Tags"
     url: /tags/
 
