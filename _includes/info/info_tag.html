@@ -1,0 +1,9 @@
+<p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
+    {% unless include.non-tag == "true" %}
+    |
+    {% endunless %}
+    {% for tag in page.tag %}
+        {{tag}} |
+    {% endfor %}
+  </p>

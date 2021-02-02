@@ -1,7 +1,11 @@
-{% if site.tag_archive.type and page.tags[0] %}
-  {% include tag-list.html %}
+{% if page.categories[0] %}
+  {% include info/info_category.html %}
 {% endif %}
 
-{% if site.category_archive.type and page.categories[0] %}
-  {% include category-list.html %}
+{% if page.tags[0] %}
+  {% include info/info_tag.html %}
+{% else %}
+  {% include info/info_tag.html   non-tag = "true" %}
 {% endif %}
+
+{% include info/info_date.html %}

@@ -1,0 +1,10 @@
+{% assign sorted_categories = site.categories | sort %}
+<ul>
+    {% for category in sorted_categories %}
+        {% assign c_name = category[0] %}
+        {% assign c_size = category[1].size %}
+        {% if c_name != null %}
+            {% include taxonomy/taxonomy-item.html category_name = c_name category_size = c_size%}
+        {% endif %}
+    {% endfor %}
+</ul>

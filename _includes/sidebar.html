@@ -15,7 +15,10 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
 
-    {% include taxonomy-list.html category_name="Test" %}
+    <div class="sidebar_taxonomy">
+      <h2>Taxonomy</h2>
+      {% include taxonomy/taxonomy-list.html %}
+    </div>
 
   {% endif %}
 
