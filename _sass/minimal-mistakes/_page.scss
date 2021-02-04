@@ -45,6 +45,7 @@ body {
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
+    padding-left: 50px;
   }
 
   .page__inner-wrap {
@@ -518,6 +519,7 @@ body {
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
+    padding-left: 50px;
   }
 
   a {

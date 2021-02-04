@@ -28,7 +28,9 @@
     </h2>
     <small>{%- include info/info_date.html  date = post.date -%}</small>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {%- unless include.type == "grid" or teaser -%}
+      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {%- endunless -%}
   </article>
   <hr style="border: solid 0.5px rgb(154, 153, 155);">
 </div>
