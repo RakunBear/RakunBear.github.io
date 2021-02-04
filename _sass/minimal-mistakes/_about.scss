@@ -1,9 +1,40 @@
 .about
 {
-    h1
-    {
-        margin: 10%;
-        color: #a509d4;
-    }
+    position: relative;
     
+
+    .content
+    {
+        hr
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 80%;
+            border-style: solid;
+            border-width: 0.5px;
+            border-color: rgb(154, 153, 155);
+        }
+
+        h1
+        {
+            margin: 8%;
+            color: #a509d4;
+        }
+
+        h2
+        {
+            margin: 5%;
+        }
+
+        ul
+        {
+            display: table;
+            margin: auto;
+            text-align: left;
+
+        }
+    }
+
 }

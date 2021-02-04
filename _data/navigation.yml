@@ -9,7 +9,7 @@ main:
   # - title: "Sitemap"
   #   url: /test/
   - title: "Taxonomy"
-    url: /taxonomy/
+    url: /categories/
   # - title: "Tags"
   #   url: /tags/
 

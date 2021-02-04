@@ -1,6 +1,7 @@
 ---
 title           : "블로그 시작"
 layout          : single
+date            : 2021-01-31 + T + 00:00 + :00
 categories      : "Default"
 ---
 
