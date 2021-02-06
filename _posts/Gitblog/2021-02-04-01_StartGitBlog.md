@@ -3,7 +3,7 @@ title           : "01_Gitblog시작하기"
 layout          : single
 date            : 2021-02-04 + T + 22:00 + :00
 categories      : "Gitblog"
-tags            :
+tag             :
             - gitblog
             - minimal-mistakes
 ---

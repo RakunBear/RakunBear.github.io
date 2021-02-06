@@ -3,7 +3,7 @@ title           : "02_Config 설명"
 layout          : single
 date            : 2021-02-04 + T + 22:29 + :00
 categories      : "Gitblog"
-tags            :
+tag             :
             - gitblog
             - minimal-mistakes
 ---

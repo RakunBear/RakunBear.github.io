@@ -3,7 +3,7 @@ title           : "00_참고 링크모음"
 layout          : single
 date            : 2021-02-05 + T + 00:10 + :00
 categories      : "Gitblog"
-tags            :
+tag             :
             - gitblog
             - minimal-mistakes
 ---
@@ -31,6 +31,7 @@ tags            :
 + [minimal-mistakes 블로그 만들기](https://hahafamilia.github.io/howto/jekyll-github-mistakes-blog/)
 + [날짜 형식 설정](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
 + [카테고리 만들기](https://bit.ly/3aCLDw5)
++ [Post 링크걸기](https://jtrimind.github.io/blog/2020/04/03/jekyll-post-url.html)
   
 ## Jekyll 이미지 업로드  
 
